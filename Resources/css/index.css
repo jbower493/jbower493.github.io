@@ -35,10 +35,12 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  color: grey;
 }
 
 h3 {
   font-size: 1.5rem;
+  color: grey;
 }
 
 h1, h2, h3 {
