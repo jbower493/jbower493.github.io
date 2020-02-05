@@ -277,6 +277,10 @@ img {
   display: none;
 }
 
+#grey-text {
+  color: grey;  
+}
+
 /*footer*/
 
 footer {
