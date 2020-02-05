@@ -1,4 +1,4 @@
-﻿* {
+* {
   margin: 0;
   padding: 0;
 }
@@ -216,10 +216,63 @@ img {
 .lowersection {
   background-color: hsla(230, 100%, 23%, 0.25);
   width: 100%;
-  min-height: 700px;
   justify-content: center;
   margin-top: 100px;
-  padding: 30px;
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+  padding: 30px 100px;
+}
+
+.lowersection p {
+  font-size: 1.5rem;
+}
+
+.lowersection h2 {
+  font-size: 2.5rem;
+}
+
+.lowersection h3 {
+  font-size: 2rem;
+}
+
+.lowersection ul {
+  font-size: 1.5rem;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.lowersection li {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.lowersection strong {
+  color: grey;
+}
+
+.sponsor-me {
+  height: 600px;
+  flex: 1;
+  margin: 30px;
+  text-align: center;
+}
+
+.individual, .company {
+  padding: 20px;
+}
+
+.picture {
+  background-image: url("Jamie Potrait cropped.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.picture img {
+  display: none;
 }
 
 /*footer*/
@@ -311,13 +364,16 @@ footer {
     padding: 0;
   }
 
-}
+  .sponsor-me {
+    width: 100%;
+    height: auto;
+    flex: initial;
+    margin: 30px;
+  }
+
+  .picture img {
+    display: block;
+  }
 
 
-
-@media only screen and (max-width: 550px) {
-  
-  
-
- 
 }
