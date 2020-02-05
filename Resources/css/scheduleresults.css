@@ -30,14 +30,20 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  color: grey;
+  font-family: georgia, serif;
+  font-weight: 400;
 }
 
 h3 {
   font-size: 1.5rem;
+  color: grey;
+  font-family: georgia, serif;
+  font-weight: 400;
 }
 
-h1, h2, h3 {
-  font-family: helvetica, sans-serif;
+h1 {
+  font-family: /*"malgun gothic",*/helvetica, sans-serif;
   font-weight: 400;
 }
 
