@@ -1,0 +1,316 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: helvetica, sans-serif;
+}
+
+/*Universal styles*/
+
+a:link {color: lightgray;}      /* unvisited link */
+a:visited {color: lightgray;}  /* visited link */
+a:hover {color: lightgray;}  /* mouse over link */
+a:active {color: lightgray;}  /* selected link */
+
+body {
+  color: lightgrey;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h1, h2, h3 {
+  font-family: helvetica, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 1.5rem;
+}
+
+/*header section*/
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  color: lightgrey;
+  border-bottom: 2px lightgrey solid;
+  z-index: 10;
+  opacity: 0.9;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+header li {
+  display: inline-block;
+  margin: 30px 0 30px 0;
+  padding: 0 30px 0 30px;
+  border-left: 1px lightgrey solid;
+}
+
+.no-border {
+  border-left: none;
+}
+
+header h1 {
+  margin: 30px 30px 30px 100px;
+}
+
+
+.menu {
+  display: none;
+}
+
+#menu {
+  display: none;
+}
+
+#menu:target {
+  display: block;
+}
+
+.dropdown-nav {
+  background-color: hsl(224, 23%, 11%);
+  
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  text-align: center;
+  z-index: 9;
+}
+
+.close-menu {
+  width: 90%;
+  margin-top: 170px;
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+.dropdown-nav ul {
+  color: lightgrey;
+  list-style-type: none;
+}
+
+.dropdown-nav li {
+  font-size: 1.5rem;
+  margin: 30px;
+}
+
+
+/*main section*/
+
+main {
+  background-color: hsl(224, 23%, 11%);
+  background-image: url("Jamie Follow Through.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 750px;
+  padding-top: 180px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*content section*/
+
+.events {
+  /*background: linear-gradient(rgba(0, 0, 51, 0.9),
+rgba(0, 0, 51, 0.9)),
+url("IMG_2248 copy.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;*/
+  background-color: hsla(230, 100%, 15%, 0.8);
+  width: 600px;
+  height: 400px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.events h2 {
+  padding: 10px;
+}
+
+table {
+  margin: auto;
+  width: 100%;
+  table-layout: fixed;
+}
+
+td {
+  padding: 8px 5px;
+}
+
+.title {
+  text-align: center;
+}
+
+.career li {
+  font-size: 1rem;
+}
+
+.career ul {
+  width: 300px;
+}
+
+.career {
+  /*background: linear-gradient(rgba(0, 0, 51, 0.9),
+rgba(0, 0, 51, 0.9)),
+url("IMG_2248 copy.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;*/
+  background-color: hsla(230, 100%, 15%, 0.8);
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.career ul {
+  list-style-type: disc;
+}
+
+.career h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/*footer*/
+
+footer {
+  background-color: black;
+  width: 100%;
+  height: 80px;
+  border-top: 2px lightgrey solid; 
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*Media queries*/
+
+@media only screen and (max-width: 1560px) {
+
+  h1 {
+    
+    margin: 30px 7% 30px 7%;
+    font-size: 3rem;
+  }
+
+  header {
+    flex-wrap: no-wrap;
+  }
+
+  .normal-nav {
+    display: none;
+  }
+
+  .menu {
+    display: inline-block;
+    margin: 30px 7% 30px 7%;
+  }
+
+  main {
+    background-image: url("Jamie Follow Through cropped.JPG");
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+
+  p {
+    font-size: 1.7rem;
+    line-height: 1.4;
+  }
+
+  table {
+    font-size: 1.7rem;
+  }
+
+  .career li {
+    font-size: 1.7rem;
+    line-height: 1.6;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.7rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  .menu {
+    font-size: 2.5rem;
+  }
+
+  .dropdown-nav li, .close-menu {
+    font-size: 2.5rem;
+  }
+
+  .dropdown-nav li {
+    margin: 40px;
+  }
+
+  .events {
+    margin: 30px;
+    width: 100%;
+    height: auto;
+  }
+
+  .career {
+    margin: 30px;
+    width: 100%;
+  }
+  
+
+}
+
+
+
+@media only screen and (max-width: 550px) {
+  
+  
+
+ 
+}

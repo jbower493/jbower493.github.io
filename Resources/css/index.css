@@ -1,0 +1,416 @@
+﻿/*Finished apart from media queries for mobile version, mainly nav bar*/
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: /*ebrima,*/ helvetica, sans-serif;
+}
+
+/*Universal styles*/
+
+a:link {color: lightgray;}      /* unvisited link */
+a:visited {color: lightgray;}  /* visited link */
+a:hover {color: lightgray;}  /* mouse over link */
+a:active {color: lightgray;}  /* selected link */
+
+body {
+  background-color: hsl(224, 23%, 11%);
+  color: lightgrey;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h1, h2, h3 {
+  font-family: /*"malgun gothic",*/helvetica, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 1.5rem;
+}
+
+.pinned p {
+  font-size: 1.5rem;
+}
+  
+
+/*header section*/
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: lightgray;
+  border-bottom: 2px lightgray solid;
+  z-index: 10;
+  
+  justify-content: space-between;
+  align-items: center;
+}
+
+header li {
+  display: inline-block;
+  margin: 30px 0 30px 0;
+  padding: 0 30px 0 30px;
+  border-left: 1px lightgray solid;
+}
+
+.no-border {
+  border-left: none;
+}
+
+header h1 {
+  margin: 30px 30px 30px 100px;
+}
+
+.menu {
+  display: none;
+}
+
+#menu {
+  display: none;
+}
+
+#menu:target {
+  display: block;
+}
+
+.dropdown-nav {
+  background-color: hsl(224, 23%, 11%);
+  
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  text-align: center;
+  z-index: 9;
+}
+
+.close-menu {
+  width: 90%;
+  margin-top: 200px;
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+.dropdown-nav ul {
+  color: lightgray;
+  list-style-type: none;
+}
+
+.dropdown-nav li {
+  font-size: 1.5rem;
+  margin: 30px;
+}
+
+/*main section*/
+
+main {
+  width: 100%;
+  justify-content: center;
+}
+
+/*upper section*/
+
+.uppersection {
+  width: 100%;
+  height: 800px;
+  background-color: whitesmoke;
+  background-image: url("Jamie Laying on Green.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.socials {
+  background-color: hsla(230, 100%, 15%, 0.8);
+  color: lightgray;
+  width: 300px;
+  margin: 30px 30px 30px 0;
+  padding: 10px 10px 10px 30px;
+  border-radius: 0 10px 10px 0;
+}
+
+.socials li {
+  font-size: 1.5rem;
+}
+
+#twitter {
+  color: rgb(29, 161, 242);
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#insta {
+  color: magenta;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.pinned {
+  /*background: linear-gradient(rgba(50, 57, 83, 0.7),
+rgba(50, 57, 83, 0.7)),
+url("IMG_9258.PNG");*/
+  background-color: hsla(230, 100%, 15%, 0.8);
+  /*background-image: url("IMG_9258.PNG");*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*height: 300px;*/
+  width: 25%;
+  padding: 20px;
+  margin: 30px 0 30px 30px;
+  border-radius: 10px 0 0 10px;
+ 
+}
+
+/*lower section*/
+
+.lowersection {
+  width: 90%;
+  padding: 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  /*height: 500px;*/ /*get rid of height once content is in*/
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lowerleft, .lowerright {
+  width: 650px;
+  height: 600px;
+  margin: 10px;
+}
+
+.lowerleft {
+  /*background: linear-gradient(hsla(230, 100%, 15%, 0.75),
+hsla(230, 100%, 15%, 0.75)),
+url("IMG_0111 copy.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;*/
+  background-color: hsla(230, 100%, 23%, 0.25);
+  text-align: center;
+  padding: 20px;
+}
+
+.lowerleft p {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.lowerright {
+  /*background: linear-gradient(hsla(230, 100%, 15%, 0.75),
+hsla(230, 100%, 15%, 0.75)),
+url("IMG_2248 copy.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;*/
+  background-color: hsla(230, 100%, 23%, 0.25);
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.about, .news {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.lowerright img {  
+  height: 130px;
+  margin-right: 20px;
+  width: auto; /*aprox 250px*/
+}
+
+.text-box {
+  width: 450px;
+}
+
+/*footer*/
+
+footer {
+  background-color: black;
+  width: 100%;
+  height: 80px;
+  border-top: 2px whitesmoke solid;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*background: linear-gradient(rgba(50, 57, 83, 0.7),
+rgba(50, 57, 83, 0.7)),
+url("IMG_9258.PNG");*/
+
+
+
+/*Media queries*/
+
+@media only screen and (max-width: 1560px) {
+  
+  h1 {
+    
+    margin: 30px 7% 30px 7%;
+    font-size: 3rem;
+  }
+
+  header {
+    flex-wrap: no-wrap;
+  }
+
+  .normal-nav {
+    display: none;
+  }
+
+  .menu {
+    display: inline-block;
+    margin: 30px 7% 30px 7%;
+  }
+
+
+  .lowerleft, .lowerright {
+    width: 1000px;
+    height: auto;
+    margin: 10px;
+  }
+
+  .text-box {
+    padding: 10px;
+    width: 750px;
+  }
+
+  img {
+    margin: 10px 0;
+  }
+
+ 
+}
+
+@media only screen and (max-width: 1100px) {
+
+  p {
+    font-size: 1.7rem;
+    line-height: 1.4;
+  }
+  
+  .pinned p {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.7rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  .menu {
+    font-size: 2.5rem;
+  }
+
+  .dropdown-nav li, .close-menu {
+    font-size: 2.5rem;
+  }
+
+  .dropdown-nav li {
+    margin: 40px;
+  }
+
+  .pinned {
+    width: 40%;
+  }
+
+  .socials {
+    width: 320px;
+  }
+
+  .socials li {
+    font-size: 1.8rem;
+  }
+
+  .lowersection {
+    width: 100%;
+    margin: 100px 30px;
+    padding: 0;   
+  }
+
+  .lowerleft, .lowerright {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .lowerleft {
+    padding: 20px;
+    margin-bottom: 100px;
+  }
+
+  .lowerright {
+    
+    
+  }
+
+  .lowerright img {  
+    height: auto;
+    margin: 0 0 0 0;
+    width: 100%;
+  }
+
+  .text-box {
+    width: 100%;
+    margin: 20px 20px 70px 20px;
+    padding: 0;
+  }
+
+  #bottom-text {
+    margin-bottom: 20px;
+  }
+
+
+
+}
+
+
