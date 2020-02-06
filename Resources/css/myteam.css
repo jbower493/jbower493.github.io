@@ -218,8 +218,9 @@ footer {
   align-items: center;
 }
 
-footer p {
- 
+footer i {
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 
@@ -315,16 +316,8 @@ footer p {
     padding: 0;
   }
 
-}
+  footer p {
+    font-size: 2rem;
+  }
 
-
-  
-
-
-
-@media only screen and (max-width: 550px) {
-  
-  
-
- 
 }
