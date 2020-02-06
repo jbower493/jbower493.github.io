@@ -236,9 +236,12 @@ url("IMG_0111 copy.JPG");
   padding: 20px;
 }
 
+.lowerleft h3 (
+  text-align: left;
+}
+
 .lowerleft p {
   text-align: left;
-  margin-top: 40px;
 }
 
 .lowerright {
