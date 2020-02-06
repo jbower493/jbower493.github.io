@@ -1,4 +1,4 @@
-﻿/*Finished apart from media queries for mobile version, mainly nav bar*/
+/*Finished apart from media queries for mobile version, mainly nav bar*/
 
 
 
@@ -286,6 +286,11 @@ footer {
   align-items: center;
 }
 
+footer i {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
 
 /*background: linear-gradient(rgba(50, 57, 83, 0.7),
 rgba(50, 57, 83, 0.7)),
@@ -420,8 +425,10 @@ url("IMG_9258.PNG");*/
     margin-bottom: 20px;
   }
 
+  footer p {
+    font-size: 2rem;
+  }
+
 
 
 }
-
-
