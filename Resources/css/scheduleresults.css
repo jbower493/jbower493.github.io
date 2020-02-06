@@ -230,6 +230,11 @@ footer {
   align-items: center;
 }
 
+footer i {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
 
 /*Media queries*/
 
@@ -309,15 +314,10 @@ footer {
     margin: 30px;
     width: 100%;
   }
+
+   footer p {
+    font-size: 2rem;
+  }
   
 
-}
-
-
-
-@media only screen and (max-width: 550px) {
-  
-  
-
- 
 }
