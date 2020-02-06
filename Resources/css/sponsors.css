@@ -292,6 +292,11 @@ footer {
   align-items: center;
 }
 
+footer i {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
 
 
 /*Media queries*/
@@ -409,5 +414,8 @@ footer {
     font-size: 1.8rem;
   }
 
+   footer p {
+    font-size: 2rem;
+  }
 
 }
