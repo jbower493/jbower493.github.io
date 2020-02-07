@@ -171,7 +171,7 @@ url("IMG_2248 copy.JPG");
   width: 700px;
   max-width: 700px;
   min-width: 300px;
-  height: 320px;
+  height: 370px;
   min-height: 260px;
   margin: 30px; 
   align-items: center;
@@ -180,6 +180,12 @@ url("IMG_2248 copy.JPG");
 img {
   height: 260px;
   width: auto;
+}
+
+.underpin {
+  height: 70px;
+  width: auto;
+  margin: 5px;
 }
 
 .text-box { 
@@ -309,6 +315,10 @@ footer i {
     height: auto;
     width: 100%;
     margin: 0;
+  }
+
+  .underpin {
+    height: 100px;
   }
 
   .text-box {
