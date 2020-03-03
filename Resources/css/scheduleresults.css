@@ -29,15 +29,22 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
-  color: grey;
+  font-size: 2.5rem;
+  color: whitesmoke;
   font-family: georgia, serif;
   font-weight: 400;
 }
 
 h3 {
-  font-size: 1.5rem;
-  color: grey;
+  font-size: 1.8rem;
+  color: whitesmoke;
+  font-family: georgia, serif;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.3rem;
+  color: whitesmoke;
   font-family: georgia, serif;
   font-weight: 400;
 }

@@ -29,26 +29,28 @@ h1 {
   font-size: 3rem;
 }
 
+
 h2 {
-  font-size: 2rem;
-  color: grey;
+  font-size: 2.5rem;
+  color: whitesmoke;
   font-family: georgia, serif;
   font-weight: 400;
 }
 
 h3 {
-  font-size: 1.5rem;
-  color: grey;
+  font-size: 1.8rem;
+  color: whitesmoke;
   font-family: georgia, serif;
   font-weight: 400;
 }
 
 h4 {
-  font-size: 1rem;
-  color: grey;
+  font-size: 1.3rem;
+  color: whitesmoke;
   font-family: georgia, serif;
   font-weight: 400;
 }
+
 
 h1 {
   font-family: /*"malgun gothic",*/helvetica, sans-serif;
@@ -255,18 +257,17 @@ url("IMG_0111 copy.JPG");
 .card {
   width: 100%;
   background-color: hsla(230, 100%, 23%, 0.25);
-  padding: 20px;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .card img {
   height: 200px;
   width: auto;
-  margin-right: 20px;
 }
 
 .text-box {
   flex: 1;
+  margin: 20px;
 }
 
 lowerright h2 {
@@ -417,20 +418,18 @@ url("IMG_9258.PNG");*/
     font-size: 1.3rem;
   }
 
-  .lowerright img {  
+  .card img {  
     height: auto;
-    margin: 0 0 0 0;
+    margin: 0;
     width: 100%;
   }
 
   .text-box {
-    width: 100%;
-    margin: 20px 20px 70px 20px;
-    padding: 0;
+    flex: 1;
   }
 
   #bottom-text {
-    margin-bottom: 20px;
+   
   }
 
   footer p {

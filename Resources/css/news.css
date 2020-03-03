@@ -30,22 +30,22 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
-  color: grey;
+  font-size: 2.5rem;
+  color: whitesmoke;
   font-family: georgia, serif;
   font-weight: 400;
 }
 
 h3 {
-  font-size: 1.5rem;
-  color: grey;
+  font-size: 1.8rem;
+  color: whitesmoke;
   font-family: georgia, serif;
   font-weight: 400;
 }
 
 h4 {
-  font-size: 1rem;
-  color: grey;
+  font-size: 1.3rem;
+  color: whitesmoke;
   font-family: georgia, serif;
   font-weight: 400;
 }
@@ -148,11 +148,20 @@ main {
   width: 100%;
   justify-content: center;
   padding: 150px 0 100px 0;
+  background-image: url("grass.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .news {
-  width: 100%;
+  width: 940px;
   text-align: center;
+  margin-bottom: 20px;
+}
+
+.news h2 {
+  background-color: hsla(230, 100%, 15%, 0.85);
 }
 
 .cards {
@@ -161,7 +170,7 @@ main {
 }
 
 .card {
-  background-color: hsla(230, 100%, 23%, 0.25);
+  background-color: hsla(230, 100%, 15%, 0.85);
   width: 900px;
   padding: 20px;
   margin: 20px 0;
