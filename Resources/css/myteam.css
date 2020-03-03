@@ -160,7 +160,7 @@ section {
 
 main {
   width: 100%;
-  min-height: 900px;
+  height: auto;
   justify-content: space-around;
   align-content: center;
   padding-top: 100px;
@@ -169,38 +169,27 @@ main {
 /*4 members section*/
 
 .member {
-  /*background: linear-gradient(rgba(0, 0, 51, 0.9),
-rgba(0, 0, 51, 0.9)),
-url("IMG_2248 copy.JPG");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;*/
   background-color: hsla(230, 100%, 23%, 0.25);
-  width: 700px;
-  max-width: 700px;
-  min-width: 300px;
-  height: 370px;
-  min-height: 260px;
+  width: 1050px;
+  height: 300px;
   margin: 30px; 
-  align-items: center;
+  align-items: flex-start;
 }
 
 img {
-  height: 260px;
+  height: 300px;
   width: auto;
 }
 
 .underpin {
-  height: 70px;
+  height: 60px;
   width: auto;
-  margin: 5px;
+  margin: 10px 0;
 }
 
 .text-box { 
   flex: 1;
-  min-width: 50%;
-  margin: 10px;
-  padding: 10px;
+  margin: 20px;
 }
  
 
@@ -270,10 +259,8 @@ footer i {
   }
 
   .member {
-    width: 850px;
-    max-width: 850px;
-    min-height: 260px;
-    height: auto;
+    width: 1050px;
+    height: 300px;
   }
 
 }
@@ -316,7 +303,7 @@ footer i {
 
   .member {
     width: 100%;
-    max-width: 100%;
+    height: auto;
   }
 
   img {
