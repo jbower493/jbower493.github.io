@@ -410,6 +410,10 @@ url("IMG_9258.PNG");*/
     padding: 0;
   }
 
+  .lowerright {
+    height: auto; 
+  }  
+  
   .lowerleft {
     padding: 20px;
     margin-bottom: 100px;
