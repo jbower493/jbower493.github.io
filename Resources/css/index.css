@@ -97,7 +97,7 @@ header {
 header li {
   display: inline-block;
   margin: 30px 0 30px 0;
-  padding: 0 30px 0 30px;
+  padding: 0 25px 0 25px;
   border-left: 1px lightgray solid;
 }
 
@@ -106,7 +106,7 @@ header li {
 }
 
 header h1 {
-  margin: 30px 30px 30px 100px;
+  margin: 30px 30px 30px 70px;
 }
 
 .menu {
@@ -410,13 +410,13 @@ url("IMG_9258.PNG");*/
     padding: 0;
   }
 
-  .lowerright {
-    height: auto; 
-  }  
-  
   .lowerleft {
     padding: 20px;
     margin-bottom: 100px;
+  }
+
+  .lowerright {
+    height: auto;
   }
 
   .lowerright a {
