@@ -1,0 +1,6 @@
+name: 'Jamie Test Action'
+description: 'Just a test'
+author: 'jamie'
+runs:
+  using: 'node20'
+  main: 'main.js'
